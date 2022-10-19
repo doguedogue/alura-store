@@ -2,7 +2,8 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 33.33% 33.33% 33.33%;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 50px - 0.6rem);
+    gap: 0.1rem;
 }
 
 .destaques__principal {
@@ -33,4 +34,43 @@
     background: url(../img/cs-go.jpg) center/cover no-repeat;
     grid-column: 3 / 4;
     grid-row: 3/4;
+}
+
+.destaques__categorias {
+    grid-column: 1 / 3;
+    grid-row: 3/4;
+}
+
+.destaques__categorias___lista {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.destaques__categorias___item {
+    align-items: center;
+    background: #fdfdfd;
+    display: flex;
+    color: #333333;
+    width: 50%;
+    padding: 1rem;
+}
+
+.destaques__categorias___link {
+    color: inherit;
+}
+
+.destaques__titulo {
+    color: #fdfdfd;
+    background: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+    padding: .6rem;
+}
+
+.box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
