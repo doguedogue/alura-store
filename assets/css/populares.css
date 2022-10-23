@@ -49,3 +49,24 @@
     flex-wrap: wrap;
     padding: 1rem 0;
 }
+
+.populares__card___titulo {
+    color: #333333;
+    font-size: 1.5rem;
+}
+
+.populares__card___data {
+    color: #808080;
+    font-size: 0.9rem;
+}
+
+.populares__card___descripcion {
+    color: #333333;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+.populares__titulo {
+    font-weight: 500;
+}
