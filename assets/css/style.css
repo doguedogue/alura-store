@@ -38,4 +38,8 @@
 
 .rodapie {
     grid-area: rodapie;
+    background: #fdfdfd;
+    color: #333333;
+    padding: 1rem;
+    text-align: center;
 }
